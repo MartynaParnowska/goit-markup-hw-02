@@ -1,34 +1,39 @@
-body {
+.body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
+}
+
+.nav-header {
+    color: #212121;
+    background-color: #ececec;
+    font-weight: 500;
+    font-size: 14;
+    line-height: 16;
+}
+
+.header-link-agency:hover,
+.header-link-agency:focus {
+    color: #2196F3
 }
 
 .button {
-    background
+    cursor: pointer;
+    color: white;
+    background-color: #2196F3
 }
 
-.Portfolio {
-    color: blue;
-}
-
-
-h2 {
-    font-weight: 700;
-    font-size: 18px;
+.h2 {
     color: #212121;
 }
 
-header {
-    font-weight: 500;
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    font-size: 14;
+    line-height: 24;
+    font-weight: 400;
 }
 
-h1 {
-    font-weight: 500;
-    color: #212121;
-}
-
-.button {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
+.footer-item:hover,
+.footer-item:focus {
+    color: #2196F3
 }
