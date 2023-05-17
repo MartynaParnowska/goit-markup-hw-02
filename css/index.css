@@ -1,21 +1,58 @@
 .body {
     font-family: "Roboto", sans-serif;
+    color: #212121
+}
+
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #212121;
+    text-decoration: none;
 }
 
 .nav-header {
+    font-family: "Roboto";
     color: #212121;
     background-color: #ececec;
     font-weight: 500;
-    font-size: 14;
-    line-height: 16;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
-.header-link-agency:hover,
-.header-link-agency:focus {
-    color: #2196F3
+
+ul {
+    list-style-type: none;
 }
 
-.button {
+.link-agency:hover,
+.link-agency:focus {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.buttons-style {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -38,19 +75,43 @@
     background-color: #2196F3;
 }
 
-.h2 {
-    color: #212121;
-}
-
 .footer {
+    font-family: "Roboto";
     background-color: #2F303A;
     color: #ffffff;
-    font-size: 14;
-    line-height: 24;
-    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 7;
+    font-weight: 400px;
+    letter-spacing: 0, 03em
 }
 
-.footer-item:hover,
-.footer-item:focus {
-    color: #2196F3
+.contact {
+    font-family: "Roboto";
+    background: #2F303A;
+    color: rgba(255, 255, 255, 0, 6);
+    font-size: 14px;
+    line-height: 1, 7;
+    font-weight: 400px;
+    letter-spacing: 0, 03em;
+    text-decoration: underline;
+}
+
+.contact1 {
+    font-family: "Roboto";
+    background: #2F303A;
+    color: rgba(255, 255, 255, 0, 6);
+    font-size: 14px;
+    line-height: 1, 7;
+    font-weight: 400px;
+    letter-spacing: 0, 03em;
+}
+
+.adress {
+    font-family: "Roboto";
+    background: #2F303A;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1, 7;
+    font-weight: 400px;
+    letter-spacing: 0, 03em
 }
