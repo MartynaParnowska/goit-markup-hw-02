@@ -19,14 +19,13 @@
     font-size: 26px;
     line-height: 1, 20;
     letter-spacing: 0, 03em;
-    color: #212121;
+    color: #000;
     text-decoration: none;
 }
 
 .nav-header {
     font-family: "Roboto";
     color: #212121;
-    background-color: #ececec;
     font-weight: 500;
     font-size: 14px;
     line-height: 1, 14;
@@ -34,9 +33,48 @@
     text-decoration: none;
 }
 
+.framework {
+    background: #2F303A;
+    width: 1600px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    letter-spacing: 0, 06em;
+}
+
+.lorem-ipsum {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0, 03em;
+    color: #212121
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36 px;
+    line-height: 1, 16;
+    letter-spacing: 0, 03em;
+    background: #F5F4FA;
+    width: 1600px;
+}
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 0, 03em;
+    color: #757575;
 }
 
 .link-agency:hover,
@@ -44,7 +82,6 @@ ul {
     color: #2196F3;
     text-decoration: none;
 }
-
 
 .link-portfolio:hover,
 .link-portfolio:focus {
@@ -55,14 +92,15 @@ ul {
 .buttons-style {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1, 6;
     letter-spacing: 0.3em;
     text-align: center;
     cursor: pointer;
-    background: #f5fafa;
+    background: #F5F4FA;
     border: #2196F3;
     border-radius: 4px;
     padding: 6px 22px;
+
 }
 
 .buttons-style:hover {
@@ -75,28 +113,36 @@ ul {
     background-color: #2196F3;
 }
 
-.footer {
-    font-family: "Roboto";
-    background-color: #2F303A;
+.button-index {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 8;
     color: #ffffff;
-    font-size: 14px;
-    line-height: 1, 7;
-    font-weight: 400px;
-    letter-spacing: 0, 03em
+    background: #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+    width: 200px;
+    height: 50px;
+    left: 700 px;
+    top: 430 px;
+}
+
+.footer {
+    background: #2F303A;
+    width: 1600px;
+}
+
+.logo-footer {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .contact {
-    font-family: "Roboto";
-    background: #2F303A;
-    color: rgba(255, 255, 255, 0, 6);
-    font-size: 14px;
-    line-height: 1, 7;
-    font-weight: 400px;
-    letter-spacing: 0, 03em;
-    text-decoration: underline;
-}
-
-.contact1 {
     font-family: "Roboto";
     background: #2F303A;
     color: rgba(255, 255, 255, 0, 6);
