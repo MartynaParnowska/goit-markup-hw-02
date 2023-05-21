@@ -39,6 +39,7 @@
     color: #FFFFFF;
     font-family: "Roboto";
     font-weight: 900;
+    font-style: normal;
     font-size: 44px;
     line-height: 1, 36;
     letter-spacing: 0, 06em;
@@ -124,14 +125,16 @@ p {
 .buttons-style {
     font-weight: 500;
     font-size: 16px;
+    font-style: normal;
     line-height: 1, 6;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     background: #F5F4FA;
     border: #2196F3;
     border-radius: 4px;
     padding: 6px 22px;
+
 }
 
 .buttons-style:hover {
@@ -205,7 +208,8 @@ p {
     font-size: 14px;
     line-height: 1, 7;
     letter-spacing: 0, 03em;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
 }
 
 .adress {
