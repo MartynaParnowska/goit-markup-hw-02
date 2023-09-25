@@ -129,15 +129,15 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
-  background: #f5f4fa;
-  border: #2196f3;
+  background: #f4f4fd;
+  border: #4d5ae5;
   border-radius: 4px;
   padding: 6px 22px;
 }
 
 .buttons-style:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #404bbf;
 }
 
 .button-style:focus {
