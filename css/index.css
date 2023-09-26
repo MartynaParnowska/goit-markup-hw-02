@@ -7,26 +7,20 @@ body {
   background-color: #ffffff;
 }
 
-.logo {
+.logo,
+.logo2 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1, 17;
-  letter-spacing: 0, 03em;
-  color: #4d5ae5;
-  text-decoration: none;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.logo {
+  color: #4d5ae5;
+}
 .logo2 {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 0, 03em;
-  color: #000;
-  text-decoration: none;
-  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .nav-header {
@@ -34,9 +28,28 @@ body {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.nav-header a:hover,
+.nav-header a:focus {
+  color: #404bbf;
+}
+.address a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
 }
 
 .framework {
