@@ -1,3 +1,6 @@
+:root {
+  --button-color: #404bbf;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -38,7 +41,6 @@ body {
 
 .framework {
   background: #2f303a;
-  width: 1600px;
   color: #ffffff;
   font-family: "Roboto";
   font-weight: 900;
@@ -63,7 +65,6 @@ body {
   line-height: 1, 16;
   letter-spacing: 0, 03em;
   background: #f5f4fa;
-  width: 1600px;
 }
 
 h2 {
@@ -134,8 +135,6 @@ p {
   cursor: pointer;
   background: #f4f4fd;
   border: #4d5ae5;
-  border-radius: 4px;
-  padding: 6px 22px;
 }
 
 .buttons-style:hover {
@@ -154,13 +153,7 @@ p {
   line-height: 1, 8;
   color: #ffffff;
   background: #4d5ae5;
-  border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
-  width: 200px;
-  height: 50px;
-  left: 700 px;
-  top: 430 px;
 }
 
 .button-index:hover {
@@ -175,7 +168,6 @@ p {
 
 .footer {
   background: #2f303a;
-  width: 1600px;
 }
 
 .logo-footer {
@@ -186,10 +178,6 @@ p {
   letter-spacing: 0, 03em;
   color: #ffffff;
   text-decoration: none;
-  width: 145 px;
-  height: 31 px;
-  left: 215 px;
-  top: 2157 px;
 }
 .text-footer {
   color: #f4f4fd;
