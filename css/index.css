@@ -36,6 +36,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
+  font-style: normal;
 }
 .list a:hover,
 .list a:focus,
