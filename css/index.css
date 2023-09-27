@@ -1,12 +1,15 @@
 :root {
+  --background-color: #ffffff;
   --button-color: #404bbf;
+  --text-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
+.logo,
 .logo-text {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -65,7 +68,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.lorem-ipsum {
+.values {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
