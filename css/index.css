@@ -43,10 +43,13 @@ body {
   list-style: none;
   font-style: normal;
 }
-.list a:hover,
-.list a:focus,
-.link {
-  color: var(--button-text);
+.list :hover,
+.list :focus {
+  color: var(--button-color);
+}
+
+.address-link {
+  color: var(--button-color);
 }
 
 [href^="./"] {
@@ -60,7 +63,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--body-text);
+  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -113,19 +118,32 @@ body {
   color: var(--header-color);
   font-weight: 700;
   font-size: 36 px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  background-color: var(--cloud-color);
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .people {
-  font-size: 36px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--header-color);
+  background-color: var(--cloud-color);
 }
-
+.team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--body-text);
+}
 .buttons-style {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
