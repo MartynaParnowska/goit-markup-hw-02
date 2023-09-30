@@ -144,6 +144,17 @@ body {
   font-size: 16px;
   color: var(--body-text);
 }
+.project-list {
+  list-style: none;
+}
+.project-card {
+  font-weight: 500;
+  font-size: 20px;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+}
 .buttons-style {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
