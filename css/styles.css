@@ -33,9 +33,6 @@ body {
 }
 
 .list {
-  font-family: "Roboto";
-  color: var(--header-color);
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -43,9 +40,12 @@ body {
   list-style: none;
   font-style: normal;
 }
-.list :hover,
-.list :focus {
+.link-list:hover,
+.link-list:focus {
   color: var(--button-color);
+}
+.link-list {
+  list-style: none;
 }
 
 .address-link {
@@ -226,6 +226,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud-color);
+}
+.team.people {
+  background-color: #ffffff;
 }
 .span {
   color: var(--cloud-color);
