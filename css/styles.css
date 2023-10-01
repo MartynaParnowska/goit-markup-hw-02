@@ -124,6 +124,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  background-color: var(--cloud-color);
 }
 .people {
   font-weight: 500;
@@ -133,6 +134,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--header-color);
+  background-color: var(--cloud-color);
 }
 .member {
   background-color: var(--background-color);
