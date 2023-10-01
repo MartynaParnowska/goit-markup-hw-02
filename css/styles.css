@@ -62,7 +62,10 @@ body {
   color: var(--body-text);
   font-style: normal;
 }
-
+.address-link:hover,
+.address-link:focus {
+  color: var(--button-color);
+}
 .address {
   font-style: normal;
 }
@@ -110,16 +113,17 @@ body {
   text-transform: capitalize;
   color: var(--header-color);
 }
-
+.team.people {
+  background-color: var(--cloud-color);
+}
 .team {
   color: var(--header-color);
   font-weight: 700;
-  font-size: 36 px;
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  background-color: var(--cloud-color);
 }
 .people {
   font-weight: 500;
@@ -129,9 +133,10 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--header-color);
-  background-color: var(--cloud-color);
 }
-
+.member {
+  background-color: var(--background-color);
+}
 .team-member {
   font-weight: 500;
   font-size: 20px;
@@ -143,6 +148,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: var(--body-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .project-card {
   font-weight: 500;
