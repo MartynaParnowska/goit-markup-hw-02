@@ -32,32 +32,27 @@ body {
   text-decoration: none;
 }
 
+.list:hover,
+.list:focus {
+  color: var(--button-color);
+}
 .list {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  list-style: none;
+}
+.link {
   text-decoration: none;
-  list-style: none;
-  font-style: normal;
-}
-.link-list:hover,
-.link-list:focus {
-  color: var(--button-color);
-}
-.link-list {
-  list-style: none;
 }
 
-.address-link {
-  color: var(--button-color);
-}
-
-[href^="./"] {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--button-color);
 }
 .address-link {
   font-weight: 400;
@@ -67,9 +62,7 @@ body {
   color: var(--body-text);
   font-style: normal;
 }
-.link {
-  text-decoration: none;
-}
+
 .address {
   font-style: normal;
 }
@@ -95,6 +88,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .value {
   font-weight: 500;
   font-size: 20px;
@@ -150,9 +144,6 @@ body {
   font-size: 16px;
   color: var(--body-text);
 }
-.project-list {
-  list-style: none;
-}
 .project-card {
   font-weight: 500;
   font-size: 20px;
@@ -183,7 +174,7 @@ body {
 }
 
 .buttons-style:hover,
-.button-style:focus {
+.buttons-style:focus {
   color: var(--background-color);
   background-color: var(--button-color);
 }
