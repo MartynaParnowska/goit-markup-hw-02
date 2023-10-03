@@ -113,7 +113,7 @@ body {
   text-transform: capitalize;
   color: var(--header-color);
 }
-.team.people {
+.team-people {
   background-color: var(--cloud-color);
 }
 .team {
